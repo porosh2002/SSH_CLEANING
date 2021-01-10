@@ -101,3 +101,19 @@ margin: 0px 20px;
   border: 1px solid #fff;
   transition:.5s;
 }
+/* Services */
+.Services{
+  height:500px;
+  background-color: #fff;
+  margin: -100px 30px 0px 30px;
+  border-radius:5px;
+}
+/* Section_Title */
+.Section_Title{
+  font-size:30px;
+  text-align: center;
+  padding: 70px 0px;
+  color: #034ea2;
+  font-weight:600;
+  letter-spacing:.5px;
+}
