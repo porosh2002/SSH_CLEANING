@@ -1,9 +1,9 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-import SwiperCore, { Autoplay} from 'swiper';
+import SwiperCore, { Autoplay,Navigation} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-SwiperCore.use([Autoplay]);
+SwiperCore.use([Autoplay,Navigation]);
 function Services() {
     const Scroll = () => {
         if (window.innerWidth > 900) {
@@ -17,6 +17,7 @@ function Services() {
         <div className='Services'>
             <p className='Section_Title'>Our Services</p>
             <Swiper
+            navigation
                 spaceBetween={200}
                 centeredSlides={true}
                 slidesPerView={Scroll()}
