@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* Navigation */
+.Navigation{
+  height:100px;
+  background-color: #fff;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top:0;
+}
+/* Navigation___Spacing */
+.Navigation{
+  display: flex;
+  justify-content: space-between;
+  padding:0px 50px;
+}
+/* Logo */
+.LinkLogo img{
+  height:70px;
+  padding-top:15px;
+}
