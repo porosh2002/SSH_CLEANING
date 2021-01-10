@@ -36,6 +36,9 @@ body{
   font-weight:600;
   letter-spacing:.5px;
 }
+.MenuLink:hover{
+  color: #034da2c0;
+}
 /* NavigationUL */
 .NavigationUL{
   height:100%;
@@ -46,4 +49,19 @@ body{
 }
 .NavigationUL li{
 margin: 0px 20px;
+}
+/* CTA_BTN */
+.CTA-BTN_NAV{
+  padding: 10px 20px;
+  background-color: #034ea2;
+  color: #fff;
+  border-radius:3px;
+  transition:.5s;
+  border: 1px solid transparent;
+}
+.CTA-BTN_NAV:hover{
+  background-color: #ffff;
+  color: #034ea2;
+  border: 1px solid #034ea2;
+  transition:.5s;
 }

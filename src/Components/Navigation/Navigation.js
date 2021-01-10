@@ -12,7 +12,7 @@ function Navigation() {
                     <li><Link className='MenuLink' to='#'>About us</Link></li>
                     <li><Link className='MenuLink' to='#'>Our Work</Link></li>
                     <li><Link className='MenuLink' to='#'>News</Link></li>
-                    <li><Link className='MenuLink' to='#'>Contact us</Link></li>
+                    <li><Link className='MenuLink CTA-BTN_NAV' to='#'>Contact us</Link></li>
                 </ul>
             </nav>
         </div>
