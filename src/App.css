@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); */
 *{
   margin:0;
   padding:0;
+  list-style-type:none;
+}
+body{
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 /* Navigation */
 .Navigation{
@@ -20,4 +27,23 @@
 .LinkLogo img{
   height:70px;
   padding-top:15px;
+}
+/* MenuLink */
+.MenuLink{
+  text-decoration: none;
+  color:#034ea2;
+  font-size:16px;
+  font-weight:600;
+  letter-spacing:.5px;
+}
+/* NavigationUL */
+.NavigationUL{
+  height:100%;
+  display: flex;
+  width:700px;
+  align-items: center;
+  justify-content: center;
+}
+.NavigationUL li{
+margin: 0px 20px;
 }
