@@ -1,27 +1,80 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-
+import SwiperCore, { Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+SwiperCore.use([Autoplay]);
 function Services() {
+    const Scroll = () => {
+        if (window.innerWidth > 900) {
+            return 4;
+        }
+        else {
+            return 2;
+        }
+    };
     return (
         <div className='Services'>
             <p className='Section_Title'>Our Services</p>
-            <ServiceCard ServiceClass='ServiceCard Service_1' name={'Air Hygiene & Ductwork  Cleaning'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_2' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_3' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_4' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_5' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_6' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_7' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_8' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_9' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_10' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_11' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_12' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_13' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_14' name={'Builders And Handover Cleans'}/>
-            <ServiceCard ServiceClass='ServiceCard Service_15' name={'Builders And Handover Cleans'}/>
+            <Swiper
+                spaceBetween={250}
+                slidesPerView={Scroll()}
+                loop={true}
+                autoplay={{
+                    delay: 1500,
+                    disableOnInteraction: false
+                }}
+            >
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_1' name={'Air Hygiene & Ductwork  Cleaning'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_2' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_3' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_4' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_5' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_6' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_7' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_8' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_9' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_10' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_11' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_12' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_13' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_14' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ServiceCard ServiceClass='ServiceCard Service_15' name={'Builders And Handover Cleans'} />
+                </SwiperSlide>
+
+            </Swiper>
         </div>
     )
 }
-
 export default Services
