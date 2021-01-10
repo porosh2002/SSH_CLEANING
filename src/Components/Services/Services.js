@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore, { Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 SwiperCore.use([Autoplay]);
@@ -17,12 +17,13 @@ function Services() {
         <div className='Services'>
             <p className='Section_Title'>Our Services</p>
             <Swiper
-                spaceBetween={250}
+                spaceBetween={200}
+                centeredSlides={true}
                 slidesPerView={Scroll()}
                 loop={true}
                 autoplay={{
                     delay: 1500,
-                    disableOnInteraction: false
+                    disableOnInteraction:true
                 }}
             >
                 <SwiperSlide>
