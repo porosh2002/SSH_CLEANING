@@ -104,7 +104,7 @@ margin: 0px 20px;
 .Services{
   height:500px;
   background-color: #fff;
-  margin: -100px 30px 0px 30px;
+  margin: -100px 40px 0px 40px;
   border-radius:5px;
   text-align: center;
 }
@@ -119,8 +119,8 @@ margin: 0px 20px;
 .ServiceCard{
   display: inline-block;
   height:200px;
-  width:250px;
-  margin:20px;
+  width:300px;
+  margin:30px 30px; 
   border-radius:5px;
   text-decoration: none;
   transition:.5s;
@@ -133,14 +133,85 @@ margin: 0px 20px;
   font-size:15px;
   letter-spacing:.5px;
   text-transform:capitalize;
-  padding:10px;
+  padding:15px 0px;
   color: #fff;
   background-color: #034ea2;
-  margin-top:70%;
+  margin:60% 10px 0px 10px;
+  border-radius:3px;
 }
 /* ServiceCard */
 .Service_1{
   background: url('./Images/Service_1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_2{
+  background: url('./Images/Service_2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_3{
+  background: url('./Images/Service_3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_4{
+  background: url('./Images/Service_4.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_5{
+  background: url('./Images/Service_5.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_6{
+  background: url('./Images/Service_6.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_7{
+  background: url('./Images/Service_7.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_8{
+  background: url('./Images/Service_8.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_9{
+  background: url('./Images/Service_9.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_10{
+  background: url('./Images/Service_10.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_11{
+  background: url('./Images/Service_11.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_12{
+  background: url('./Images/Service_13.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_13{
+  background: url('./Images/Service_13.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_14{
+  background: url('./Images/Service_14.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Service_15{
+  background: url('./Images/Service_15.jpg');
   background-position: center;
   background-size: cover;
 }
