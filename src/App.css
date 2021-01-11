@@ -304,3 +304,14 @@ transform: scale(1.03);
 .NewsBTN:hover{
 opacity:.7;
 }
+/* Client */
+.Client{
+  text-align: center;
+  margin:50px 0px;
+}
+.CompanyLogoClient
+{
+  display: inline-block;
+  max-height:70px;
+  margin:40px;
+}

@@ -6,6 +6,7 @@ import CTA from './Components/CTA/CTA'
 import Services from './Components/Services/Services'
 import RecentWork from './Components/RecentWork/RecentWork'
 import News from './Components/News/News'
+import Clients from './Components/Customers/Clients'
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <RecentWork  />
       <News />
+      <Clients />
       {/* <CTA2 /> */}
     </div>
   )
