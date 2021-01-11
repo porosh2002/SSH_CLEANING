@@ -75,6 +75,14 @@ margin: 0px 20px;
   height:100%;
   background-color: #034da2b0;
 }
+.CTA2{
+  height:500px;
+  background: url('./Images/BG\ CTA.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
 .CTA_Text{
   color: #fff;
   padding:220px 0px 0px 50px;
