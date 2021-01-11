@@ -73,16 +73,20 @@ margin: 0px 20px;
 }
 .CTA_Wrap{
   height:100%;
-  background-color: #034da2b0;
+  background-color: #034da2d3;
 }
 .CTA2{
-  height:500px;
-  background: url('./Images/BG\ CTA.jpg');
+  height:400px;
+  background: url('./Images/CTA2.jpg');
   background-position: center;
   background-size: cover;
   text-align: center;
 }
 
+.CTA2_Text{
+  color: #fff;
+  padding:170px 0px 0px 50px;
+}
 .CTA_Text{
   color: #fff;
   padding:220px 0px 0px 50px;
