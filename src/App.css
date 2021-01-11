@@ -107,6 +107,8 @@ margin: 0px 20px;
   margin: -100px 40px 0px 40px;
   border-radius:5px;
   text-align: center;
+  padding:0px 30px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 /* Section_Title */
 .Section_Title{
@@ -214,4 +216,47 @@ margin: 0px 20px;
   background: url('./Images/Service_15.jpg');
   background-position: center;
   background-size: cover;
+}
+/* Recent */
+.Recent{
+  background-color: #034ea2;
+  color: #fff !important;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+}
+.RecentCard{
+display: inline-block;
+height:200px;
+width:330px;
+margin:30px 15px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+border-radius:5px;
+text-decoration: none;
+transition:.5s;
+}
+.RecentCard:hover {
+transition:.5s;
+transform: scale(1.03);
+}
+.RC_1{
+  background:url('./Images/Recent_1.jpg');
+}
+.RC_2{
+  background:url('./Images/Recent_2.jpg');
+}
+.RC_3{
+  background:url('./Images/Recent_3.jpg');
+}
+.RC_4{
+  background:url('./Images/Recent_4.jpg');
+}
+.RecentWorkName
+{
+  background-color: #fff;
+  margin-top:50%;
+  font-size:16px;
+  padding:10px 0px;
+  font-weight: 600;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
 }
