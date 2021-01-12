@@ -327,3 +327,28 @@ opacity:.7;
   max-height:70px;
   margin:40px;
 }
+/* Footer */
+.Footer{
+  padding:30px;
+  background-color: #343a40;
+  text-align: center;
+}
+.FooterLogo{
+  height: 50px;
+}
+.FooterContent{
+display: inline-block;
+margin: 30px 50px;
+}
+.Footertitle{
+  font-size:20px;
+  color: #fff;
+  margin-bottom:30px;
+}
+.FooterDes{
+  font-size:14px;
+  color: #cfcfcf;
+  text-decoration: none;
+  display: block;
+  margin:7px;
+}

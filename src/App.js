@@ -7,6 +7,7 @@ import Services from './Components/Services/Services'
 import RecentWork from './Components/RecentWork/RecentWork'
 import News from './Components/News/News'
 import Clients from './Components/Customers/Clients'
+import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <News />
       <Clients />
       <CTA2 />
+      <Footer />
     </div>
   )
 }
