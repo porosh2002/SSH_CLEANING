@@ -12,9 +12,7 @@ import SubFooter from './Components/Footer/SubFooter'
 function App() {
   return (
     <div>
-      <div style={{zIndex:"99999999999999999999999999999999999999999999999999999999999999"}}>
       <Navigation />
-      </div>
       <CTA />
       <Services />
       <RecentWork  />
