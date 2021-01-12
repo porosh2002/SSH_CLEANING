@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SSH_CLEANING/static/css/main.38d4fa3b.chunk.css",
+    "main.js": "/SSH_CLEANING/static/js/main.c10c9ae4.chunk.js",
+    "main.js.map": "/SSH_CLEANING/static/js/main.c10c9ae4.chunk.js.map",
+    "runtime-main.js": "/SSH_CLEANING/static/js/runtime-main.8f17b8c8.js",
+    "runtime-main.js.map": "/SSH_CLEANING/static/js/runtime-main.8f17b8c8.js.map",
+    "static/css/2.1d1f9f4f.chunk.css": "/SSH_CLEANING/static/css/2.1d1f9f4f.chunk.css",
+    "static/js/2.4ec06eed.chunk.js": "/SSH_CLEANING/static/js/2.4ec06eed.chunk.js",
+    "static/js/2.4ec06eed.chunk.js.map": "/SSH_CLEANING/static/js/2.4ec06eed.chunk.js.map",
+    "static/js/3.82a10c44.chunk.js": "/SSH_CLEANING/static/js/3.82a10c44.chunk.js",
+    "static/js/3.82a10c44.chunk.js.map": "/SSH_CLEANING/static/js/3.82a10c44.chunk.js.map",
+    "index.html": "/SSH_CLEANING/index.html",
+    "static/css/2.1d1f9f4f.chunk.css.map": "/SSH_CLEANING/static/css/2.1d1f9f4f.chunk.css.map",
+    "static/css/main.38d4fa3b.chunk.css.map": "/SSH_CLEANING/static/css/main.38d4fa3b.chunk.css.map",
+    "static/js/2.4ec06eed.chunk.js.LICENSE.txt": "/SSH_CLEANING/static/js/2.4ec06eed.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/SSH_CLEANING/static/media/Service_9.3b72378d.jpg",
+    "static/media/Clients_1.62c4c5af.png": "/SSH_CLEANING/static/media/Clients_1.62c4c5af.png",
+    "static/media/Clients_4.62e3229d.png": "/SSH_CLEANING/static/media/Clients_4.62e3229d.png",
+    "static/media/SSH-Cleaning.0bb78d8d.png": "/SSH_CLEANING/static/media/SSH-Cleaning.0bb78d8d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f17b8c8.js",
+    "static/css/2.1d1f9f4f.chunk.css",
+    "static/js/2.4ec06eed.chunk.js",
+    "static/css/main.38d4fa3b.chunk.css",
+    "static/js/main.c10c9ae4.chunk.js"
+  ]
+}
