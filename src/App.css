@@ -332,13 +332,25 @@ opacity:.7;
   padding:30px;
   background-color: #343a40;
   text-align: center;
+  display: flex;
+  justify-content:space-around;
 }
 .FooterLogo{
   height: 50px;
+  margin-top:65px;
+}
+.FooterIcon,.FooterSocialIcon{
+  font-size:22px;
+  color: #fff;
+}
+.FooterSocialIcon{
+  font-size:30px;
+}
+.FooterContactDes{
+  margin-left:5px;
 }
 .FooterContent{
-display: inline-block;
-margin: 30px 50px;
+margin:0px 30px;
 }
 .Footertitle{
   font-size:20px;
@@ -351,4 +363,16 @@ margin: 30px 50px;
   text-decoration: none;
   display: block;
   margin:7px;
+}
+.SubFooter{
+  padding:10px;
+  background-color:#29303b;
+  display: flex;
+  justify-content:center;
+  color: #cfcfcf;
+  font-size:13px;
+}
+.SubFooterLink{
+  color: #fff;
+  margin: 0px 20px;
 }

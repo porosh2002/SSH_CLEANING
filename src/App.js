@@ -8,6 +8,7 @@ import RecentWork from './Components/RecentWork/RecentWork'
 import News from './Components/News/News'
 import Clients from './Components/Customers/Clients'
 import Footer from './Components/Footer/Footer'
+import SubFooter from './Components/Footer/SubFooter'
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
       <Clients />
       <CTA2 />
       <Footer />
+      <SubFooter />
     </div>
   )
 }
