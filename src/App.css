@@ -42,12 +42,12 @@ body{
 .NavigationUL{
   height:100%;
   display: flex;
-  width:700px;
+  width:650px;
   align-items: center;
   justify-content: center;
 }
 .NavigationUL li{
-margin: 0px 20px;
+margin: 0px 15px;
 }
 /* CTA_BTN */
 .CTA-BTN_NAV{
