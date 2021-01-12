@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SSH_CLEANING/static/css/main.c26849b0.chunk.css",
+    "main.css": "/SSH_CLEANING/static/css/main.244f69ee.chunk.css",
     "main.js": "/SSH_CLEANING/static/js/main.c10c9ae4.chunk.js",
     "main.js.map": "/SSH_CLEANING/static/js/main.c10c9ae4.chunk.js.map",
     "runtime-main.js": "/SSH_CLEANING/static/js/runtime-main.8f17b8c8.js",
@@ -12,7 +12,7 @@
     "static/js/3.82a10c44.chunk.js.map": "/SSH_CLEANING/static/js/3.82a10c44.chunk.js.map",
     "index.html": "/SSH_CLEANING/index.html",
     "static/css/2.1d1f9f4f.chunk.css.map": "/SSH_CLEANING/static/css/2.1d1f9f4f.chunk.css.map",
-    "static/css/main.c26849b0.chunk.css.map": "/SSH_CLEANING/static/css/main.c26849b0.chunk.css.map",
+    "static/css/main.244f69ee.chunk.css.map": "/SSH_CLEANING/static/css/main.244f69ee.chunk.css.map",
     "static/js/2.4ec06eed.chunk.js.LICENSE.txt": "/SSH_CLEANING/static/js/2.4ec06eed.chunk.js.LICENSE.txt",
     "static/media/App.css": "/SSH_CLEANING/static/media/Service_9.3b72378d.jpg",
     "static/media/Clients_1.62c4c5af.png": "/SSH_CLEANING/static/media/Clients_1.62c4c5af.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.8f17b8c8.js",
     "static/css/2.1d1f9f4f.chunk.css",
     "static/js/2.4ec06eed.chunk.js",
-    "static/css/main.c26849b0.chunk.css",
+    "static/css/main.244f69ee.chunk.css",
     "static/js/main.c10c9ae4.chunk.js"
   ]
 }
